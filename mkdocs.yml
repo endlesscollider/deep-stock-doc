@@ -51,6 +51,11 @@ nav:
       - 股票数据库: modules/stock_db.md
       - ETF 数据库: modules/etf_db.md
       - 新闻数据库: modules/news_db.md
+  - RL训练:
+      - RL训练概览: rl/rl_training_overview.md
+      - 环境设置详解: rl/rl_environment_setup.md
+      - 训练框架详解: rl/rl_training_framework.md
+      - 数据处理详解: rl/rl_data_processing.md
   - API 参考:
       - api/portfolio_trading_env.md
   - 新闻面板: news_dashboard.md
