@@ -2,6 +2,7 @@ site_name: Deep Stock 文档
 site_description: 基于深度学习的股票价格预测系统文档
 site_author: Deep Stock Team
 site_url: https://endlesscollider.github.io/deep-stock-doc/
+use_directory_urls: false
 
 repo_name: deep-stock-doc
 repo_url: https://github.com/endlesscollider/deep-stock-doc
