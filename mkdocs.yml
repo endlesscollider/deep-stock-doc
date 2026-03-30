@@ -1,0 +1,55 @@
+site_name: Deep Stock 文档
+site_description: 基于深度学习的股票价格预测系统文档
+site_author: Deep Stock Team
+site_url: https://endlesscollider.github.io/deep-stock-doc/
+
+repo_name: deep-stock-doc
+repo_url: https://github.com/endlesscollider/deep-stock-doc
+
+copyright: Copyright &copy; 2024 Deep Stock Team
+
+theme:
+  name: material
+  language: zh
+  palette:
+    primary: indigo
+    accent: blue
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search:
+      lang: zh
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/endlesscollider/deep-stock
+
+markdown_extensions:
+  - tables
+  - admonition
+
+nav:
+  - 首页: index.md
+  - 指南:
+      - guide/usage.md
+      - guide/strategies.md
+      - guide/hyperparameter_tuning.md
+  - 模块文档:
+      - 模块概述: modules/overview.md
+      - 股票数据库: modules/stock_db.md
+      - ETF 数据库: modules/etf_db.md
+      - 新闻数据库: modules/news_db.md
+  - API 参考:
+      - api/portfolio_trading_env.md
+  - 新闻面板: news_dashboard.md
